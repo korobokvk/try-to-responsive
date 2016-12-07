@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Euphoria+Script|Josefin+Slab:300,400,600');
+
+
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+
+header.header {
+	position: relative;
+	display: block;
+}
+
+.logo {
+	position: absolute;
+	width: 10%;
+	z-index: 1;
+	top: 0;	
+}
+
+.item > img {
+	width: 100%;
+	height: ;
+}
+
+.blacklogo {
+	font-family: 'Euphoria Script', cusive;
+	background-image: url(../img/bla.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 196px;
+	height: 196px;
+	z-index: 2;
+	position: absolute;
+	right: 30px;
+	bottom: -25px;
+
+}
+
+.blacklogo > h1 {
+	font-width: bold;
+	text-align: center; 
+	color: #1CD3A2;
+}
+
+.blacklogo > p {
+	font-width: bold;
+	font-size: 13pt;
+	text-align: center; 
+	color: white;
+}
+
+.sub {
+	background-color: #42685e;
+	/*z-index: 3;*/
+	width: 100%;
+	height: 200px;	
+}
+
+.separ {
+	margin-top: 25px;
+	margin-left: 55px;
+	margin-bottom: 10px;
+}
+
+.josefine {
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	padding-top: 25px; 
+	padding-right: 0px;
+	font-size: 20px;
+	color: white;
+
+}
+
+.green {
+	text-align: center;
+}
+
+a {
+	font-family: 'Josefin Slab', serif;
+}
+
+.menu {
+	padding-top: 15px;
+}
+section.menu ul li {
+	padding-right: 40px;
+}
+
+section.menu ul li:nth-child(7) {
+	padding-right: 150px;
+}
+section.menu ul li:nth-child(9) a,
+section.menu ul li:nth-child(8) a {
+	color: #9fd5d4;
+}
+
+.shrimpay > img {
+	width: 100%;
+	
+}
+
+
+.imgblock {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.droppad {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.bg1 {
+	width: 100%;
+}
+
+.droptext {
+	margin-left: 20%;
+	
+}
+
+h1.droptext {
+	margin-top: 80px;
+	font-size: 4.3em;
+	color: #7cc7c5;
+	font-family: 'Amatic SC';
+}
+
+p.droptext {
+	margin-top: 65px;
+	font-size: 1.3em;
+	font-family: "Josefin Slab"
+
+}
+.chick {
+	position: absolute;
+	top: 20%;
+	left: 80%;
+	width: 13%;
+}
+
+img.bg2 {
+	width: 100%;
+	padding-left: 0;
+
+	
+}
+.bg2 {
+	width: 50%;
+	padding-left: 0;
+}
+/*.perfect {
+	width: 100%;
+	height: 420px;
+	left: 28px; 	
+	background-color: #7cc7c5;
+	
+}*/
+
+.ggg {
+	background-color: #7cc7c5;		
+	height: 447px;
+	padding: 150px;
+
+	
+}
+
+.ggg > a > h2{
+	font-family: 'Amatic SC';
+	font-size: 89px;
+	text-align: center;
+	color: white;
+	
+}
+
+.bg3 {
+	width: 100%;
+	
+}
+
+.ros > a > h1{
+	font-family: 'Amatic SC';
+	font-size: 89px;
+	text-align: center;
+	padding-top: 150px;
+	height: 300px;
+	color: #7cc7c5;
+}
+
+.ggg2 > ul > li > a {
+	font-family: 'Amatic SC';
+	font-size: 37px;
+	text-align: right;
+	color: white;
+}
+
+.ggg2 {
+	background-color: #7cc7c5;
+	padding-left: 50px;
+	height: 446px;
+}
+
+.ggg2 > ul > li{
+	padding-top: 20px;
+	
+
+}
+ 
+.ggg2 > ul {
+	color: white;
+	
+
+}
+
+.fot {
+	width: 100%;
+	height: 150px;
+	padding-top: 25px;
+	padding-left: 25px;
+	background-color: #42685e;
+}
+
+.fot > p {
+	color: white;
+	font-family: 'Josefin Slab';
+	font-size: 18px;
+}
+.fot > p > a {
+	color: white;
+	font-family: 'Josefin Slab';
+	font-size: 18px;
+}
